@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  min-height: 100vh;
+}
+
+.header__bg-logo {
+  width: 100%;
+  height: 250px;
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main {
+  margin: 0 1.5rem;
+}
+.main .info {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.main .info__title {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+.main .info__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+}
+.main .btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 12rem;
+}
+.main .btns__download-btn {
+  padding: 1.5rem 11rem;
+  border: none;
+  border-radius: 24px;
+  background-color: hsl(171, 66%, 44%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  cursor: pointer;
+}
+.main .btns__download-btn:hover {
+  background-color: hsl(171, 94%, 66%);
+}
+.main .btns__download-btn--two {
+  background-color: hsl(233, 100%, 69%);
+}
+.main .btns__download-btn--two:hover {
+  background-color: hsl(233, 100%, 79%);
+}
+.main .snippets {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.main .snippets__title {
+  color: hsl(210, 10%, 33%);
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+.main .snippets__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+}
+.main .technologies {
+  text-align: center;
+}
+.main .technologies__img {
+  width: 100%;
+  margin-bottom: 8rem;
+}
+.main .technologies__title {
+  font-size: 2.4rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+.main .technologies__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 5rem;
+}
+.main .technologies__text:last-child {
+  margin-bottom: 12rem;
+}
+.main .amenities {
+  text-align: center;
+}
+.main .amenities__title {
+  font-size: 2.8rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+.main .amenities__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 5rem;
+}
+.main .amenities__img {
+  width: 100%;
+  margin-bottom: 8rem;
+}
+.main .facilities {
+  text-align: center;
+}
+.main .facilities__title {
+  font-size: 2.8rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+.main .facilities__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 8rem;
+}
+.main .accesories {
+  text-align: center;
+}
+.main .accesories__title {
+  font-size: 2.4rem;
+  color: hsl(210, 10%, 33%);
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.main .accesories__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 5rem;
+}
+.main .accesories__text:last-child {
+  margin-bottom: 12rem;
+}
+.main .cooperation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 12rem;
+}
+.main .platforms {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.main .platforms__title {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 2rem;
+}
+.main .platforms__text {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: hsl(0, 0%, 94%);
+}
+.footer__logo {
+  width: 50px;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+.footer .references {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.footer .references__reference {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+.footer .references__reference:hover {
+  color: hsl(171, 66%, 44%);
+}
+.footer .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer .social-media .fa-brands {
+  color: hsl(210, 10%, 33%);
+}
+.footer .social-media .fa-brands:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+@media (min-width: 1440px) {
+  .main .info__title {
+    font-size: 3.6rem;
+  }
+  .main .info__text {
+    text-align: center;
+    margin-left: 62rem;
+    margin-right: 62rem;
+  }
+  .main .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main .btns__download-btn {
+    padding: 1.5rem 4rem;
+  }
+  .main .snippets__text {
+    margin-left: 58rem;
+    margin-right: 58rem;
+  }
+  .main .technologies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .main .technologies__img {
+    width: 55%;
+    margin-right: 8rem;
+  }
+  .main .technologies__content {
+    width: 45%;
+  }
+  .main .technologies__text {
+    margin-right: 40rem;
+  }
+  .main .amenities__text {
+    margin-left: 60rem;
+    margin-right: 60rem;
+  }
+  .main .amenities__img {
+    width: 50%;
+  }
+  .main .accesories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .main .accesories__text {
+    margin: 0 8rem;
+  }
+  .main .accesories__blacklists {
+    max-width: 30%;
+  }
+  .main .accesories__plain {
+    max-width: 30%;
+  }
+  .main .accesories__preview {
+    max-width: 30%;
+  }
+  .main .cooperation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 4rem;
+  }
+  .main .platforms__text {
+    margin-right: 60rem;
+    margin-left: 60rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .footer__logo {
+    margin-left: 35rem;
+    margin-bottom: 4rem;
+    width: 60px;
+  }
+  .footer .references {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 10rem;
+    gap: 1rem 6rem;
+  }
+  .footer .references__reference--one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .footer .references__reference--two {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .footer .references__reference--three {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .footer .references__reference--four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .footer .references__reference--five {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .footer .social-media {
+    margin-left: 26rem;
+  }
+  .footer .author {
+    position: absolute;
+    bottom: -6rem;
+    left: 40%;
+  }
+}/*# sourceMappingURL=main.css.map */
